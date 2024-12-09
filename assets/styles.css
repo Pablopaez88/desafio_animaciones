@@ -152,4 +152,13 @@ footer {
     padding: 1rem;
     flex-grow: 1;
   }
+  img {
+    filter: grayscale(0%);
+    transition: filter 0.4s ease;
+  }
+  img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  }
 }
